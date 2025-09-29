@@ -17,6 +17,7 @@ gcc -o convert main.c convert.c
 ```
 
 ## Test Results
+```
 Test 1: oct_to_bin("725") -> Expected: "111010101", Got: "111010101" [PASS]
 Test 2: oct_to_bin("345") -> Expected: "011100101", Got: "011100101" [PASS]
 Test 3: oct_to_bin("777") -> Expected: "111111111", Got: "111111111" [PASS]
@@ -70,3 +71,4 @@ Test 50: to_twos_complement(2147483647) -> Expected: "01111111111111111111111111
 Test 51: to_twos_complement(-2147483648) -> Expected: "10000000000000000000000000000000", Got: "10000000000000000000000000000000" [PASS]
 
 Summary: 51/51 tests passed
+```
